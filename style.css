@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image: url("./assets/bgimg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav1{
+    background-color: #ffa500;
+
+}
+.nav1-inside{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.nav1-inside p{
+    font-size: large;
+    margin-top: 15px;
+}
+.nav2{
+    padding: 10px;
+    background-color: #000;
+}
+.nav2-inside{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav2-inside form{
+    background-color: #3b3a3a;
+    padding: 8px;
+}
+.nav2-inside a{
+    text-decoration: none;
+}
+.nav2-inside form input{
+    margin-left: 5px;
+    border: none;
+    background-color: transparent;
+}
+.nav2-inside form input:focus{
+    outline: none;
+    background-color: transparent;
+}
+.nav3{
+    background-color: rgb(39, 39, 39);
+    margin-bottom: 20px;
+}
+.nav3 ul{
+    display: flex;
+    justify-content: space-between;
+    color: #ffa500;
+}
+.nav3 ul li{
+    color: #ffa500;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* font-weight: 600; */
+    /* font-size: large; */
+}
+.nav3 ul li:hover{
+    background-color: #fff;
+}
+.pastry-items{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    width: 8%;
+    text-align: center;
+}
+.img-cont{
+    height: 100px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+}
+.img-cont img{
+    border-radius: 50%;
+}
+.text-cont{
+    font-size: large;
+    /* font-weight: 600; */
+}
+.video-cont{
+    margin-top: 50px;
+    text-align: center;
+}
+.video-cont video{
+    width: 900px;
+    height: 400px;
+}
+.specials{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.special-left img{
+    border-radius: 25px;
+    margin: 15px;
+
+}
+.special-right{
+    margin: 15px;
+}
+.special-bottom{
+    display: flex;
+}
+.special-top{
+    background-color: #ffa500;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 700;
+}
+.special-top span{
+    margin-right: 40%;
+}
+.special-bottom img{
+    border-radius: 25px;
+    margin: 10px;
+
+}
+.food-items{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.features{
+    width: 70%;
+    margin: auto;
+}
+.feature-item{
+    width: 30%;
+    
+}
+.features-top,.features-bottom{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.features-text{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: x-large;
+}
+.features-text p:first-child{
+    font-size: 7.5rem;
+    font-weight: bold;
+}
+.features-text p+p{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.features-top img{
+    height: 426px;
+    width: 277px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+}
+.features-bottom img{
+    height: 426px;
+    width: 277px;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+}
+footer{
+    padding: 30px;
+    background-color: #ffa500;
+    margin-top: 50px;
+}
+.footer-inside{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-inside>div{
+    width: 60%;
+}
+.footer-inside>div+div{
+    width: 30%;
+}
+.footer-inside h4{
+    font-size: x-large;
+    margin: 15px;
+}
+.footer-inside ul{
+    margin-left: 15px;
+}
+.footer-inside ul li{
+    color: #000;
+    margin: 5px;
+    font-size: large;
+    cursor: pointer;
+}
+.footer-inside dd{
+    font-size: large;
+    color: #000;
+    margin: 20px;
+}
+footer>button{
+    position: fixed;
+    margin-left: 100px;
+    border: 2px solid rgba(215, 211, 211, 0.249);
+    background-color: #ffa500;
+    padding: 15px;
+    width: 200px;
+    font-size: x-large;
+    border-radius: 30px;
+    z-index: 111;
+    cursor: pointer;
+    /* float: right; */
+}
+body{
+    
+}
+
